@@ -1,5 +1,5 @@
 ## *1. What did you find? Which borough is the most expensive? Any other interesting trends?*
->"Hackney" borough is the most expensive borough in London. However, the average price increase for the top fifteen boroughs in London between 1998 and 2015 has been within the range of 4.76 to 6.20 fold, Which points to a significant price appreciation.
+>"Hackney" borough is the most expensive borough in London. However, the average price increase for the top fifteen boroughs in London between 1998 and 2018 has been within the range of 4.76 to 6.20 fold, Which points to a significant price appreciation.
 
 ## *2. How did you arrive at your conclusion?*
 > We were trying to answer the question: **Which boroughs of London have seen the greatest increase in housing prices, on average, over the last two decades?** In an effort to answer the question, a new metric of price ratio was calculated as the ratio of the house price for a particular borough in 2018 to the house price in 1998. This was accomplished by defining a new function and iterating over the house prices for all boroughs in London. Finally, this results was converted to a pandas dataframe and the top fifteen boroughs were analyzed to arrive at the borough with the highest average house price increase.
@@ -10,4 +10,4 @@
 > * Modelling: A function was created to calculate the ratio of average house price in 1998 to 2018, which was then used to iterate over the unique boroughs in 'London_boroughs' column. The final result was stored in dictionary containing the top fifteen price ratios for 'London_boroughs'
 
 ## *4. Is there anything you’d like to investigate deeper?*
-> It would be interesting to capture the data on these boroughs in terms of their population, income, types of occupation residents are employed in, schools availability, and employment opportunities available to name a few variables in order to investigate the reasons for the house price increase in these boroughs. 
+> It would be interesting to capture the data on these boroughs in terms of their population, income, types of occupation residents are employed in, schools availability, and employment opportunities available to name a few variables in order to investigate the reasons for the house price increase in these boroughs.
